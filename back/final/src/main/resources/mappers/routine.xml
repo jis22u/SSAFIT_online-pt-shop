@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.finalPjt.model.dao.RoutineDao">
+	<insert id="insertList" useGeneratedKeys="true" keyProperty="r_id" parameterType="Routine">
+		INSERT INTO routine VALUES (0, #{u_id}, #{r_name})
+	</insert>
+	
+	<insert id="insertDetail" parameterType="Routine">
+		INSERT INTO routine_detail VALUES (0, #{v_id}, #{r_id}, #{li})
+	</insert>
+
+	<select id="selectListById" parameterType="String" resultType="Routine">
+		SELECT * FROM routine r INNER JOIN routine_detail rd
+		ON r.r_id = rd.r_id
+		WHERE u_id = #{u_id}
+		GROUP BY r.r_id
+	</select>
+
+		<select id="selectDetailListByR_Id" parameterType="int" resultType="Routine">
+		SELECT * FROM routine_detail rd
+		INNER JOIN routine r ON r.r_id = rd.r_id
+		WHERE r.r_id = #{r_id}
+		ORDER BY li
+	</select>
+
+</mapper>

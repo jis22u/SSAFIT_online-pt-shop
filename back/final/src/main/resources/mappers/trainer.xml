@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.finalPjt.model.dao.TrainerDao">
+
+	<insert id="insert" parameterType="User">
+		INSERT INTO trainer (u_id,
+		t_name, t_content, career)
+		VALUES (#{u_id}, #{t_name}, #{t_content}, #{career})
+	</insert>
+
+	<select id="selectTrainerList" resultType="User" parameterType="String">
+		SELECT * FROM trainer t INNER JOIN user u
+		ON t.u_id = u.u_id
+
+		<if test="t_name != null">
+			WHERE t.t_name LIKE CONCAT('%', #{t_name}, '%')
+		</if>
+	</select>
+
+	<select id="selectTrainerOne" resultType="User" parameterType="String">
+		SELECT * FROM trainer t
+		INNER JOIN user u
+		ON t.u_id = u.u_id
+		WHERE t.t_name = #{t_name}
+	</select>
+
+	<select id="selectTrainerVideoList" parameterType="list" resultType="Video">
+		SELECT *
+		FROM video
+		WHERE t_name 
+		<foreach item="item" collection="list" open="in (" separator="," close=")">		
+						#{item.t_name}
+
+		</foreach>
+		LIMIT 20
+	</select>
+	
+	<select id="selectVideoIncomeByTName" resultType="Video" parameterType="String">
+		SELECT v.v_id, title, reg_date, view_cnt, category, sum(price) AS price  FROM video v 
+		INNER JOIN  buy_detail bd ON v.v_id = bd.v_id
+		WHERE t_name = #{t_name}
+		GROUP BY v.v_id;
+
+	</select>
+
+	<select id="selectVideoByTName" resultType="Video" parameterType="String">
+		SELECT * FROM video WHERE t_name = #{t_name}
+	</select>
+
+	<select id="selectMajor" parameterType="String" resultType="String">
+		SELECT m_name
+		FROM major
+		WHERE m_id in (SELECT m_id
+		FROM major_detail
+		WHERE u_id = #{u_id})
+	</select>
+</mapper>

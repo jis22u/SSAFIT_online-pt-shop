@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.finalPjt.model.dao.FavoriteDao">
+	
+	<insert id="favoriteCntUp" parameterType="Favorite">
+		INSERT INTO favorite VALUES (#{u_id}, #{v_id})
+	</insert>
+	
+	<delete id="favoriteCntDown" parameterType="Favorite">
+		DELETE FROM favorite 
+		WHERE u_id = #{u_id}
+			AND v_id = #{v_id}
+	</delete>
+
+	<select id = "favoritePeople" parameterType="Favorite" resultType = "User">
+		SELECT * FROM favorite WHERE
+		v_id = #{v_id}
+	</select>
+
+	<select id="selectFavoriteVideo" parameterType="String" resultType="Video">
+		SELECT v_id, title, t_name, reg_date, category
+		FROM video 
+		WHERE v_id IN 
+		(SELECT v_id FROM favorite WHERE u_id=#{u_id})
+	</select>
+
+</mapper>

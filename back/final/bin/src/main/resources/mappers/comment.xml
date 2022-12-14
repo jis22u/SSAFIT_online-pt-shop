@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.finalPjt.model.dao.CommentDao">
+	
+	
+	<insert id="insertComment" parameterType="Comment" >
+		INSERT INTO comment (u_id, v_id, content)
+		VALUES(#{u_id}, #{v_id}, #{content})
+	</insert>
+	
+	<select id="selectCommentList" parameterType="Comment" resultType="Comment">
+		SELECT *, (SELECT nickname FROM user u WHERE u.u_id = c.u_id) as nickname
+		FROM comment c
+		<if test="v_id != null">
+			WHERE v_id = #{v_id} 
+		</if> 
+		<if test="u_id != null">
+			WHERE u_id = #{u_id} 
+		</if>
+		ORDER BY reg_date DESC
+	</select>
+	
+	<select id="selectOne" parameterType="int" resultType="Comment">
+		SELECT *, (SELECT nickname FROM user u WHERE u.u_id = c.u_id) as nickname
+		FROM comment c
+		WHERE c_id = #{c_id}
+	</select>
+
+	<update id="updateComment" parameterType="Comment">
+		UPDATE comment
+		SET content = #{content}, reg_date = now()
+		WHERE c_id = #{c_id}
+	</update>
+
+	<delete id="deleteComment" parameterType="int">
+	DELETE FROM comment
+	WHERE c_id = #{c_id}
+	</delete>
+
+
+</mapper>
