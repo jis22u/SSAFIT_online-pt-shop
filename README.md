@@ -96,19 +96,19 @@
 
 ## Tech
 
-<img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/VUEJS-black?style=flat-square&logo=vue.js&logoColor=4FC08D"/> <img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=flat-square&logo=springboot&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/VUEJS-black?style=flat-square&logo=vue.js&logoColor=4FC08D" style="height:2rem"/> <img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white" style="height:2rem"/>
 
 <br>
 
 ## Tool
 
-<img src="https://img.shields.io/badge/GIT-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/NOTION-000000?style=flat-square&logo=notion&logoColor=white"/> <img src="https://img.shields.io/badge/MATTERMOST-0058CC?style=flat-square&logo=mattermost&logoColor=white"/>
+<img src="https://img.shields.io/badge/GIT-F05032?style=flat-square&logo=git&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/NOTION-000000?style=flat-square&logo=notion&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/MATTERMOST-0058CC?style=flat-square&logo=mattermost&logoColor=white" style="height:2rem" />
 
 <br>
 
 ## API
 
-<img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white"/> <img src="https://img.shields.io/badge/i'mport-1890ff?style=flat-square&logo=i'mport&logoColor=white"/>
+<img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white" style="height:2rem" /> <img src="https://img.shields.io/badge/i'mport-1890ff?style=flat-square&logo=i'mport&logoColor=white" style="height:2rem"/>
 
 - YouTube Data API v3
   - 트레이너 개인 페이지 내 홍보용 영상
