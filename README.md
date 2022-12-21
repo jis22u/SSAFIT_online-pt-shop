@@ -1,6 +1,6 @@
 ![그림1](https://user-images.githubusercontent.com/110139421/208946150-485d6973-cc79-4e2d-bcba-cd30af127b6e.png)
 
-# <center>SSAFIT</center>
+# <center> SSAFIT </center>
 
 ## 기획의도
 
@@ -16,9 +16,9 @@
 
 ## 구현 기능
 
-## 기본 기능
+### 기본 기능
 
-### User
+#### User
 
 1. 회원가입
 
@@ -39,7 +39,7 @@
 - 유저 간 팔로워 & 팔로잉
 - 일반 사용자와 일반 사용자 & 일반 사용자와 트레이너
 
-### Video
+#### Video
 
 1. 영상 검색
 
@@ -59,7 +59,7 @@
 - 댓글 수정
 - 댓글 삭제
 
-## 주요 기능
+### 주요 기능
 
 1. 회원 맞춤 PT 추천
 
@@ -109,6 +109,6 @@
 
   - 결제
 
-  ## ECT
+## ECT
 
-  1. Codepen 오픈소스 활용
+1. Codepen 오픈소스 활용
