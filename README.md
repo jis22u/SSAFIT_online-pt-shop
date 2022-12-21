@@ -2,7 +2,7 @@
 
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSAFIT
 
-## 기획의도
+## ⭐ 기획의도
 
 > \#온라인 PT \#나만의 루틴으로
 
@@ -10,7 +10,7 @@
 
 <br>
 
-## 개요
+## ⭐ 개요
 
 구매한 PT영상으로 사용자는 자신만의 ‘운동 루틴’(플레이리스트)을 생성할 수 있다. 혹여나 루틴 짜기에 어려움을 겪는 사용자를 위해 회원가입 시 기재한 운동목적, 팔로우, 판매순 등을 고려하여 맞춤 PT를 추천한다. 전역적으로 유지되는 영상 재생창 덕분에 사용자가 플랫폼을 이용하는데 불편함을 덜할 수 있도록 하였다.
 
@@ -18,7 +18,7 @@
 
 <br>
 
-## 구현 기능
+## ⭐ 구현 기능
 
 ### 기본 기능
 
@@ -94,19 +94,19 @@
 
 <br>
 
-## Tech
+## 🪄 Tech
 
 <img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=flat-square&logo=springboot&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/VUEJS-black?style=flat-square&logo=vue.js&logoColor=4FC08D" style="height:2rem"/> <img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white" style="height:2rem"/>
 
 <br>
 
-## Tool
+## ⚒️ Tool
 
 <img src="https://img.shields.io/badge/GIT-F05032?style=flat-square&logo=git&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/NOTION-000000?style=flat-square&logo=notion&logoColor=white" style="height:2rem"/> <img src="https://img.shields.io/badge/MATTERMOST-0058CC?style=flat-square&logo=mattermost&logoColor=white" style="height:2rem" />
 
 <br>
 
-## API
+## 🔦 API
 
 <img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white" style="height:2rem" /> <img src="https://img.shields.io/badge/i'mport-1890ff?style=flat-square&logo=i'mport&logoColor=white" style="height:2rem"/>
 
@@ -118,6 +118,6 @@
 
 <br>
 
-## ECT
+## ✒️ ECT
 
 - Codepen 오픈소스 활용
