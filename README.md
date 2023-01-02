@@ -8,15 +8,8 @@
 
 ### [시장조사] <br>
 
-<div style="display:flex;">
-   <div>
-   <img width="50%" src="https://user-images.githubusercontent.com/110139421/210243035-12acd263-361a-45c8-9676-5c3ab3abf392.png" />
-   </div>
-   &nbsp;&nbsp;&nbsp;&nbsp;
-   <div>
-  <img  width="50%" src="https://user-images.githubusercontent.com/110139421/210242890-8fedb5d0-a316-4774-8250-d2cdf0ef4705.png" />
-   </div>
-</div>
+<img width="50%" src="https://user-images.githubusercontent.com/110139421/210243035-12acd263-361a-45c8-9676-5c3ab3abf392.png" /><img  width="50%" src="https://user-images.githubusercontent.com/110139421/210242890-8fedb5d0-a316-4774-8250-d2cdf0ef4705.png" />
+
 <br>
 
 &nbsp;시간과 공간적 제약에서 벗어나 자신만의 루틴대로 운동을 할 수 있는 플랫폼이다. 코로나19의 영향으로 온라인 PT 서비스에 대한 수요가 증가하였다. 이에 온라인 PT라는 점이 외부요인에 영향을 받지 않고 비대면으로 안전한 환경에서 운동할 수 있도록 해준다. 시간과 장소에 제약을 받지 않는다는 이점도 있다.  
