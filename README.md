@@ -10,11 +10,11 @@
 
 <div style="display:flex;">
    <div>
-   <img width="150%" src="https://user-images.githubusercontent.com/110139421/210243035-12acd263-361a-45c8-9676-5c3ab3abf392.png" />
+   <img src="https://user-images.githubusercontent.com/110139421/210243035-12acd263-361a-45c8-9676-5c3ab3abf392.png" />
    </div>
    &nbsp;&nbsp;&nbsp;&nbsp;
    <div>
-  <img width="150%" src="https://user-images.githubusercontent.com/110139421/210242890-8fedb5d0-a316-4774-8250-d2cdf0ef4705.png" />
+  <img src="https://user-images.githubusercontent.com/110139421/210242890-8fedb5d0-a316-4774-8250-d2cdf0ef4705.png" />
    </div>
 </div>
 <br>
