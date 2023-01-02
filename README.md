@@ -121,3 +121,9 @@
 ## ✒️ ETC
 
 - Codepen 오픈소스 활용
+
+<br>
+
+## 🔑 Licence
+
+SSAFY 8th
